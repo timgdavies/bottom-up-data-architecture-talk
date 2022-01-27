@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Data Architecture — Reducing Data Frictions & Creating an Effective Data System for an Organization</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -12,13 +12,24 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style><!--
+
+		section[data-markdown-parsed] {
+			background: rgba(0, 0, 0, 0.5);
+		}
+
+		.reveal-viewport {
+			background: black;
+		}
+	--></style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+				<section data-markdown="presentation.md" 
+         			data-separator="^----$"
+         			data-separator-vertical="^---$"
+         			data-separator-notes="^Notes:"></section>
 		</div>
 
 		<script src="dist/reveal.js"></script>
@@ -31,10 +42,17 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				width: 960,
+  				height: 700,
+  				margin: 0.04,
+				  
+				  minScale: 0.2,
+				  maxScale: 2.0,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
+
 	</body>
 </html>
