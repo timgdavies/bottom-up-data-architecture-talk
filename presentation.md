@@ -262,7 +262,7 @@ And that create major frictions for data use, requiring data users to spend all 
 
 *"Computer says no."* 
 
-*"I'm not sure we're aloud to share this data."*
+*"I'm not sure we're alowed to share this data."*
 
 *"We're not alowed to use online tools for data analysis."*
 
