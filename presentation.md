@@ -508,7 +508,7 @@ So, we looked carefully at whether there were use-cases that demanded shared ide
 
 ## Reducing friction at each point
 
-![Global Voices Civic Media Observatory](images/GVUndertones.png)
+![Global Voices Civic Media Observatory](images/GVUnderTones.png)
 
 Notes:
 
